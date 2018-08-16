@@ -1,0 +1,6 @@
+ #!/bin/bash 
+
+if [$1 = ''];
+echo "usage:"
+echo "msend send [/path/to/email.txt] [subject] [recipient] [-h show this dialog] [-r | use random email] [-l (user) (pass) use specific email]"
+exit 0
